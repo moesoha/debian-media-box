@@ -22,6 +22,10 @@ PDF 中为了方便制作纸盒，有加入部分辅助线，如果感觉影响�
 
 这个设计的最初稿是由某不愿透露名字的辣鸡嫖虫所描出来的，本 Soha 进行了改进，然后再由辣鸡嫖虫修改所定稿的。
 
+### 感谢
+
+  - dfceaef
+
 ## LICENSE
 
 <a rel="license" href="http://creativecommons.org/licenses/by/2.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a>
