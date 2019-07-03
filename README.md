@@ -24,10 +24,10 @@
 
 ### 感谢
 
-  - dfceaef
+  - dfceaef (文案)
 
 ## LICENSE
 
-<a rel="license" href="http://creativecommons.org/licenses/by/2.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
 
-This work is licensed under a [Creative Commons Attribution 2.0 Generic License](http://creativecommons.org/licenses/by/2.0/).
+本作品采用[知识共享署名-相同方式共享 3.0 未本地化版本许可协议](http://creativecommons.org/licenses/by-sa/3.0/)进行许可。
