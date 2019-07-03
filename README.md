@@ -10,6 +10,8 @@
 
 十分欢迎您对本设计提出改进意见，提 issue 和 pr 均可。
 
+[关于“严禁用于服务器安装”](https://github.com/moesoha/debian-media-box/issues/1)
+
 ## 介绍
 
 这是一个用来包装 Debian 安装介质的盒子的平面设计。因为 Debian 的 logo 与某药品十分相似，此前就有类似的梗，如下图。
