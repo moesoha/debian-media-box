@@ -4,7 +4,7 @@
 
 ## 使用
 
-在 release 页面下载 PDF 或其他格式档案，使用 300g 铜版纸的光面打印出 PDF 文档的第一页，之后沿线裁下并粘胶折叠即可。
+在 [release](https://github.com/moesoha/debian-media-box/releases/latest) 页面下载 PDF 或其他格式档案，使用 300g 铜版纸的光面打印出 PDF 文档的第一页，之后沿线裁下并粘胶折叠即可。
 
 为了方便制作纸盒，有加入部分辅助线，如果感觉影响美观可以自行删去。
 
