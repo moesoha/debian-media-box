@@ -31,7 +31,7 @@
   - 某不愿透露姓名的辣鸡嫖虫 (包装盒初稿)
   - dfceaef (包装盒文案)
   - Soha (包装盒与说明书的终稿)
-  - CharlesYang (说明书创意与文案, [#3](https://github.com/moesoha/debian-media-box/issues/3))
+  - YukariChiba (说明书创意与文案, [#3](https://github.com/moesoha/debian-media-box/issues/3))
   - IcesandSora (包装盒创意)
 
 ## LICENSE
