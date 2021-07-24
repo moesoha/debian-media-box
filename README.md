@@ -2,7 +2,7 @@
 
 | 包装盒                     | 说明书                          |
 |:-------------------------:|:------------------------------:|
-| ![](./.readme/box-1x.png) | ![](./.readme/instruction.jpg) |
+| ![](./.readme/box_all.jpg) | ![](./.readme/instruction.jpg) |
 
 ## 使用
 
