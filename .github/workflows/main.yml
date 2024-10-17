@@ -13,16 +13,16 @@ jobs:
     runs-on: ubuntu-latest
     name: Compile and publish instruction pdf.
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
     - name: Compilation
-      uses: dante-ev/latex-action@2021-A
+      uses: xu-cheng/latex-action@v3
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         root_file: 'instruction.tex'
-        compiler: xelatex
+        latexmk_use_xelatex: true
     - name: Archive PDF
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: instruction.pdf
         path: instruction.pdf
