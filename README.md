@@ -33,7 +33,7 @@
   - Soha (包装盒与说明书的终稿)
   - YukariChiba (说明书创意与文案, [#3](https://github.com/moesoha/debian-media-box/issues/3))
   - IcesandSora (包装盒创意)
-  - 内容/样式优化：david4958606 (#13), Guochengjie (#15)
+  - 内容/样式优化：david4958606 (#13), Guochengjie (#15), SolitaryDream-X (#30)
 
 ## LICENSE
 

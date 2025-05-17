@@ -1,28 +1,26 @@
-name: Compile and publish instruction pdf.
+name: Compile & Publish
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
-  workflow_dispatch:
+    workflow_dispatch:
+    push:
+    pull_request:
+        branches: [ master ]
 
 jobs:
-  instruction-latex:
-    runs-on: ubuntu-latest
-    name: Compile and publish instruction pdf.
-    steps:
-    - uses: actions/checkout@v1
-    - name: Compilation
-      uses: dante-ev/latex-action@2021-A
-      env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        root_file: 'instruction.tex'
-        compiler: xelatex
-    - name: Archive PDF
-      uses: actions/upload-artifact@v2
-      with:
-        name: instruction.pdf
-        path: instruction.pdf
+    instruction-latex:
+        runs-on: ubuntu-latest
+        name: Compile instruction PDF
+        steps:
+          - uses: actions/checkout@v4
+          - name: compile
+            uses: dante-ev/latex-action@2024-B
+            env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            with:
+                root_file: 'instruction.tex'
+                compiler: xelatex
+          - name: upload PDF
+            uses: actions/upload-artifact@v4
+            with:
+                name: instruction.pdf
+                path: instruction.pdf

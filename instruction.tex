@@ -14,7 +14,6 @@
 \usepackage{xeCJK}
 \CJKfamily{zhsong}
 
-\usepackage[svgcolors]{xcolor}
 \usepackage{longfbox}
 \usepackage{epstopdf}
 \usepackage{float}
@@ -48,7 +47,7 @@
 \newcounter{column@count}
 %
 \xpatchcmd{\multi@column@out}{
-	\process@cols\mult@gfirstbox{%
+	\process@cols\mult@firstbox{%
 		\setbox\count@
 		\vsplit\@cclv to\dimen@
 		\set@keptmarks
@@ -57,7 +56,7 @@
 		{\unvbox\count@ \ifshr@nking\vfilmaxdepth\fi}%
 	}%
 }{
-	\process@cols\mult@gfirstbox{%
+	\process@cols\mult@firstbox{%
 		\global\advance\c@column@count\@ne
 		\resized@col\dimen@%
 		\ifnum\c@column@count=\tw@
