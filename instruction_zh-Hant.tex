@@ -12,7 +12,8 @@
 \setmainfont{DejaVu Sans}[Scale=0.9]
 
 \usepackage{xeCJK}
-\CJKfamily{zhhei} % texlive 不知道有啥自带的能用的正体字形，先这样吧。
+\setCJKmainfont{Noto Serif CJK TC}
+\setCJKsansfont{Noto Sans CJK TC}
 
 \usepackage{longfbox}
 \usepackage{epstopdf}
@@ -93,7 +94,7 @@
 \renewcommand{\labelitemi}{$\blacktriangleright$}
 
 \tcbset{
-    frame code={}
+    frame code={},
     center title,
     left=0pt,
     right=0pt,
@@ -114,8 +115,8 @@
 	\savebox{\twocolinsert}{\begin{minipage}{\abstractwidth}
 		\noindent 核准日期：2025年08月09日
 		\newline 修改日期：2019年07月06日，2020年10月31日，2021年07月04日，
-		\newline 2021年08月14日，2023年06月10日，2025年08月09日
-		\newline
+		\newline 2021年08月14日，2023年06月10日，2025年08月09日，
+		\newline 2026年03月14日
 
 		% \begin{mdframed}[leftline=false, rightline=false, innertopmargin=0pt, innerbottommargin=0pt, innerrightmargin=0pt, innerleftmargin=2em]
 		% 	\includegraphics[width=0.15\abstractwidth, valign=m]{assets/debian-text.eps}
@@ -384,8 +385,8 @@
 		\multirow{2}{*}{}{編審：} & @YukariChiba\\
 		~ & @moesoha \\
 		圖形：& @YJBeetle\\
-		繁體中文版編寫：& @pea-snow
-		GitHub: & moesoha/debian-media-box\\
+		繁體中文版編寫：& @pea-snow\\
+		\multicolumn{2}{@{}l@{}}{GitHub: moesoha/debian-media-box}\\
 	\end{tabularx}
 
 	\medskip
@@ -393,7 +394,7 @@
 
 	\vfill
 	\begin{flushright}
-		Debian GNU/Linux - 13.0\linebreak 20250809
+		Debian GNU/Linux - 13.4\linebreak 20260314
 		\linebreak
 		\newline
 		\begin{minipage}{0,5\textwidth}
